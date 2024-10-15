@@ -6,7 +6,7 @@ from datetime import datetime
 from os import getenv
 from dotenv import load_dotenv
 
-load_dotenv(".env.local")
+load_dotenv()
 
 db = SQLAlchemy()
 app = Flask(__name__)
